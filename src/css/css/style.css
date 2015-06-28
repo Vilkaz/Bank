@@ -1,0 +1,10 @@
+/* line 2, ../scss/style.scss */
+.root {
+  -fx-background-color: whitesmoke;
+}
+
+/* line 6, ../scss/style.scss */
+.TextField {
+  -fx-background-color: black;
+}
+
