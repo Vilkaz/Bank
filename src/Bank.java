@@ -57,7 +57,7 @@ public class Bank extends Application {
 
         aboutUs.setOnAction(new EventHandler<ActionEvent>() {
             public void handle(ActionEvent event) {
-                content.getChildren().removeAll();
+                content.getChildren().clear();
                 aboutUSText(content);
             }
         });
@@ -90,17 +90,17 @@ public class Bank extends Application {
     }
 
     public void aboutUSText(HBox content) {
-        content.getChildren().removeAll();
+        content.getChildren().clear();
         content.getChildren().add(getAboutUsHBox());
     }
 
     public void getNewClientPane(HBox content) {
-        content.getChildren().removeAll();
+        content.getChildren().clear();
         content.getChildren().add(getNewClientFormular());
     }
 
     public void   loadClient(Client client){
-        this.content.getChildren().removeAll();
+        this.content.getChildren().clear();
 
     }
 
